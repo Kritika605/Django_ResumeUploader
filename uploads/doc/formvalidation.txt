@@ -1,0 +1,40 @@
+# def validateCandidate(self):
+    #     cleaned_data = super().clean()
+    #     mobile = cleaned_data.get("mobile")
+    #     email = cleaned_data.get("email")
+    #     if not (mobile or email):
+    #         raise forms.ValidationError(
+    #             "Full name required!!"
+    #         )
+            # error_message = "Full name required!!"
+#         elif not form.dob:
+#             error_message = "Date of birth required!!"
+#         elif not form.gender:
+#             error_message = "Gender required!!"
+#         elif not form.locality:
+#             error_message = "Locality required!!"
+#         elif (not form.city):
+#             error_message = "City name required!!"
+#         elif (not form.pin):
+#             error_message = "Pin Code required!!"
+#         elif (not form.state):
+#             error_message = "State required!!"
+#         elif (not form.mobile):
+#             error_message = "Mobile Number required!!"
+#         elif len(form.mobile)!= 10:
+#             error_message = "Please enter 10 digit mobile number!!"
+#         elif (not form.email):
+#             error_message = "Email required!!"
+#         elif form.isEmailExist(form.email):
+#             error_message = "Email Address already registered..."
+#         elif (not form.job_city):
+#             error_message = "Please select prefferd job location"
+#         elif (not form.profile_image):
+#             error_message = "Please attach profile image"
+#         elif (not form.my_resume):
+#             error_message = "Please attach your resume"
+#         return error_message
+
+#         raise forms.ValidationError(
+# 17                 "You must enter either a phone number or an email, or both."
+# 18             )
